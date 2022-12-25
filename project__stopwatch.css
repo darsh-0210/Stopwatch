@@ -1,0 +1,65 @@
+body{
+	background: linear-gradient(to right, lightskyblue, rgb(55, 81, 97), rgb(6, 73, 116));
+	margin: 0%;
+	padding: 0%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80vh;
+	border: 20px;
+	
+}
+h1{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+h1:hover{
+	color: #111;
+	text-decoration: underline;
+}
+#stopwatch{
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	border-radius: 100px;
+}
+
+#time:hover{
+	border: 5px solid #111;
+	padding: 10px 10px 10px 10px;
+}
+.number{
+	font-size: 134px;
+	font-weight: bold;
+}
+.text{
+	font-size: 35px;
+	font-weight: bold;
+}
+#control{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-top: 40px;
+}
+.btns{
+	font-size: 25px;
+	padding: 7px 25px;
+	margin: 0px 10px;
+	color: black;
+	cursor: pointer;
+	border-radius: 20px;
+}
+#start{
+	background-color: lightgreen;
+}
+#stop{
+	background-color: lightskyblue;
+}
+#reset{
+	background-color: lightcoral;
+}
+button:hover{
+	opacity: 0.7;
+}

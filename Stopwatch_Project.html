@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Stopwatch</title>
+	<link rel="stylesheet" href="project__stopwatch.css">
+
+
+</head>
+<body>
+	
+	<div id="stopwatch">
+		<h1 class="header">STOPWATCH</h1>
+		<div id="time">
+			<span class="number" id="hr">00</span>
+			<span class="text">HR</span>
+			<span class="number">:</span>
+
+			<span class="number" id="min">00</span>
+			<span class="text">MIN</span>
+			<span class="number">:</span>
+
+			<span class="number" id="sec">00</span>
+			<span class="text">SEC</span>
+
+		</div>
+		<div id="control">
+			<button class="btns" id="start" onclick="start()">Start</button>
+			<button class="btns" id ="stop" onclick="stop()">Stop</button>
+			<button class="btns" id="reset" onclick="reset()">Reset</button>
+		</div>
+	</div>
+	<script src="stopwatch__project.js"></script>
+
+</body>
+</html>
